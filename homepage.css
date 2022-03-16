@@ -73,6 +73,7 @@ header {
  
 .home-footer-content { 
   background-color: #1e4681; 
+  border-radius: 4px;
   width: 28%; 
   font-size: 25px; 
   color: #fff; 

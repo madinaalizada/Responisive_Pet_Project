@@ -60,17 +60,23 @@
         width: 100%;
     }
     .all-text .text-class{
-        width: 60%;
+        width: 80%;
         margin-bottom: 5%;
     }
     .class-format h2{
         font-size: 26px;
     }
     .text-class p{
-        width: 200px;
-        font-size: 10px !important;
+        width: 320px;
+        font-size: 18px !important;
+        word-spacing: 15px;
+        line-height: 27px;
     }
     .text-class h3{
-        font-size: 12px !important;
+        font-size: 20px !important;
+        line-height: 25.6px;
     } 
+    .all-text {
+        padding-left: 5%;
+    }
 }
