@@ -15,6 +15,9 @@
     padding: 10px 30px;
     margin: 5% 0;
 }
+.course-people .people-card .people-card-text p {
+    font-family: "Roboto";
+}
 .course-people .people-card .people-card-contact {
     display: flex;
     flex-direction: row;
@@ -35,6 +38,7 @@
 }
 .people-name-contact .people-name p {
     font-weight: 700;
+    font-family: Roboto Slab;
 }
 .facebook {
     width: 20%;
@@ -45,6 +49,7 @@
 @media (min-width: 1280px) {
     .course-people h3 {
         font-size: 55px;
+        line-height: 55.76px;
     }
     .course-people .people-card .people-card-text p {
         font-size: 20px;
@@ -58,6 +63,7 @@
 @media (min-width: 992px) and (max-width: 1279px) {
     .course-people h3 {
         font-size: 32px;
+        line-height: 32.44px;
     }
     .course-people .people-card .people-card-text p {
         font-size: 12px;
@@ -71,6 +77,7 @@
 @media (max-width: 991px) {
     .course-people h3 {
         font-size: 26px;
+        list-style: 26.36px;
     }
     .course-people .people-card .people-card-text p {
         font-size: 10px;
@@ -78,7 +85,7 @@
     }
     .people-name-contact .people-name p {
         font-size: 14px;
-        /* line-height: 0px; */
+        line-height: 14.19px;
     }
     .course-people .people-card {
         width: 80%;
