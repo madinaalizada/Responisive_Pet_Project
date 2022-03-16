@@ -3,7 +3,7 @@ header {
   font-family: Roboto; 
 } 
  
-.home-content { 
+.home-content {  
   display: flex; 
   margin-top: 5%; 
 } 
@@ -18,14 +18,12 @@ header {
  
 .about-content { 
   font-size: 20px; 
-  line-height: 30px;
   width: 55%; 
 } 
  
 .home-content-context h1 { 
   font-family: Roboto Slab; 
   font-size: 80px; 
-  line-height: 81.11px;
   width: 80%; 
   padding-right: 10px; 
 } 
@@ -49,7 +47,6 @@ header {
  
 .icons p { 
   font-size: 20px; 
-  line-height: 23px;
   margin: 0 0 0 5%; 
   height: 65%; 
 } 
@@ -78,48 +75,41 @@ header {
   background-color: #1e4681; 
   width: 28%; 
   font-size: 25px; 
-  line-height: 32.5px;
   color: #fff; 
   font-family: Roboto Slab; 
   padding: 3% 3% 0 3%; 
-  border-radius: 7px;
 } 
  
 .footer-author { 
   font-family: Roboto; 
   font-size: 20px; 
-  line-height: 26px;
   float: right; 
 } 
  
 @media (min-width: 992px) and (max-width: 1279px) { 
+ 
   .icons p, 
+  .about-content, 
   .footer-author { 
     font-size: 12px; 
-    line-height: 13.8px;
   } 
-  .about-content {
-    font-size: 12px;
-    line-height: 18px;
-  }
  
   .home-content-context h1 { 
     font-size: 46px; 
-    line-height: 46.64px;
     width: 60%; 
   } 
  
   .home-footer-content { 
     font-size: 14px; 
-    line-height: 18.2px;
   } 
-  .footer-author {
-    font-size: 12px;
-    line-height: 15.6px;
-  }
 } 
  
 @media (max-width: 991px) { 
+  
+  .homepage-section{ 
+    margin-left: -5%; 
+  } 
+ 
   .home-content { 
     display: flex; 
     flex-direction: column; 
@@ -147,14 +137,12 @@ header {
   .icons p, 
   .material-icons { 
     font-size: 10px; 
-    line-height: 11.5px;
     line-height: 2%; 
  
   } 
  
   .footer-author{ 
     font-size: 10px; 
-    line-height: 13px;
   } 
  
   .icons img { 
@@ -163,14 +151,12 @@ header {
  
   .home-content-context h1 { 
     font-size: 37px; 
-    line-height: 37.51px;
     width: 87%; 
     max-width: 300px; 
   } 
  
   .about-content { 
     font-size: 10px; 
-    line-height: 15px;
     width: 70%; 
     max-width: 250px; 
   } 
@@ -197,7 +183,5 @@ header {
     max-width: 300px; 
     min-width: 200px; 
     font-size: 11px; 
-    line-height: 14.3px;
   } 
 }
-
