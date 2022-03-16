@@ -99,12 +99,12 @@
   
     .phone,  
     .email {  
-          
-        margin-top: 3%;  
+        margin-top: 0.5%;  
     }  
   
     .copy-right {  
         font-size: 10px;  
+        margin-top: 5%;  
         
     }  
   
