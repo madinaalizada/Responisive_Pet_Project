@@ -13,16 +13,16 @@
  
 .stoimost-rub { 
     margin-top: 3%; 
+    font-family: Roboto;
 } 
  
-.stoimost { 
-    font-size: 25px; 
-    margin: 0; 
-    padding: 0; 
+/* .stoimost { 
+    font-family: Roboto;
 } 
- 
+  */
 .rub { 
     font-size: 80px; 
+    line-height: 81.11px;
     margin: 0; 
     padding: 0; 
 } 
@@ -33,11 +33,13 @@
     margin-top: 7%; 
     display: flex; 
     justify-content: space-between; 
+    font-family: Roboto;
 } 
  
 .dlya-text, 
 .seycas-text { 
     font-size: 25px; 
+    line-height: 25.35px;
 } 
  
 .dlya-container { 
@@ -48,40 +50,54 @@
 .dlya-content, 
 .seycas-content { 
     font-size: 18px; 
+    line-height: 18.25px;
 } 
  
 .seycas-container { 
     width: 45%; 
+    font-family: Roboto;
 } 
  
- 
+@media (min-width:1280px) {
+    .stoimost { 
+        font-size: 25px;
+        line-height: 25.35px;
+    } 
+} 
+
+
 @media (min-width:992px) and (max-width:1279px) { 
  
     .september8-container { 
         height: 55%; 
-        padding: 5%  10% 0 10%;
+        /* padding: 5%  10% 0 10%; */
     } 
  
     .september8-container h2 { 
         font-size: 32px; 
+        line-height: 32.44px;
     } 
  
     .stoimost { 
         font-size: 14px; 
+        line-height: 14.19px;
     } 
  
     .rub { 
         font-size: 46px; 
+        line-height: 46.64px;
     } 
  
     .dlya-text, 
     .seycas-text { 
         font-size: 14px; 
+        line-height: 14.19px;
     } 
  
     .dlya-content, 
     .seycas-content { 
         font-size: 10px; 
+        line-height: 10.14px;
     } 
  
  
@@ -95,24 +111,29 @@
  
     .september8-container h2 { 
         font-size: 26px; 
+        line-height: 26.36px;
     } 
  
     .stoimost { 
         font-size: 12px; 
+        line-height: 12.17px;
     } 
  
     .rub { 
         font-size: 37px; 
+        line-height: 37.51px;
     } 
  
     .dlya-text, 
     .seycas-text { 
         font-size: 12px; 
+        line-height: 12.17px;
     } 
  
     .dlya-content, 
     .seycas-content { 
-        font-size: 10px; 
+        font-size: 10px;
+        line-height: 10.14px; 
     } 
  
     .dlya-seycas-container { 
@@ -124,7 +145,6 @@
  
     .dlya-container { 
         width: 40%; 
-        font-size: 18px; 
     } 
  
     .seycas-container { 
